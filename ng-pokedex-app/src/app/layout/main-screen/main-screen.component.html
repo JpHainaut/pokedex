@@ -1,0 +1,64 @@
+<div class="container">
+  <div class="display-table">
+    <div *ngFor="let pokemon of display_data">
+      <div class="box">
+      <div class="content-table">
+
+      <div class="layer"> 
+
+            <p>{{pokemon.name}}</p>
+
+      </div>
+
+      <div class="layer">
+
+       <p>{{pokemon.apiTypes}}</p>
+
+      </div>
+
+      <div class="layer">
+
+        <p>{{pokemon.stats.HP}}</p>
+
+      </div>
+
+      <div class="layer">
+
+        <p>{{pokemon.stats.attack}}</p>
+
+      </div>
+      <div class="layer">
+
+        <p>{{pokemon.stats.special_attack}}</p>
+
+      </div>
+      <div class="layer">
+
+        <p>{{pokemon.stats.defense}}</p>
+   
+      </div>
+      <div class="layer">
+
+        <p>{{pokemon.stats.special_defense}}</p>
+
+      </div>
+
+      <div class="layer">
+
+        <p>{{pokemon.stats.speed}}</p>
+
+      </div>
+
+      <div class="layer">
+
+        <p>{{pokemon.apiGeneration}}</p>
+        
+      </div>
+      </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+

@@ -1,0 +1,12 @@
+:host{
+    display: flex;
+    flex-direction: column;
+}
+app-main-screen{
+    background-color: #42525c;
+    flex: 1 0 auto;
+}
+app-recherche{
+    background-color: #253036;
+    flex: 0 1 8em;
+}
